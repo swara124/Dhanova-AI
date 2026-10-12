@@ -1,0 +1,26 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="130dp" android:height="130dp"
+    android:viewportWidth="120" android:viewportHeight="120">
+    <!-- soft circle -->
+    <path android:fillColor="#DDF1E9"
+        android:pathData="M60,60m-56,0a56,56 0,1 1,112 0a56,56 0,1 1,-112 0"/>
+    <!-- house body -->
+    <path android:fillColor="#FFFFFF"
+        android:pathData="M36,58h48v30h-48z"/>
+    <!-- roof -->
+    <path android:fillColor="#1F8F72"
+        android:pathData="M28,60L60,30L92,60L86,66L60,42L34,66z"/>
+    <!-- door -->
+    <path android:fillColor="#1F8F72"
+        android:pathData="M54,88v-16h12v16z"/>
+    <!-- window -->
+    <path android:fillColor="#9AD3BF"
+        android:pathData="M42,64h8v8h-8zM70,64h8v8h-8z"/>
+    <!-- people -->
+    <path android:fillColor="#1F8F72"
+        android:pathData="M26,92m-6,0a6,6 0,1 1,12 0a6,6 0,1 1,-12 0"/>
+    <path android:fillColor="#1F8F72"
+        android:pathData="M94,92m-6,0a6,6 0,1 1,12 0a6,6 0,1 1,-12 0"/>
+    <path android:fillColor="#4DB896"
+        android:pathData="M17,108c0,-6 4,-10 9,-10s9,4 9,10zM85,108c0,-6 4,-10 9,-10s9,4 9,10z"/>
+</vector>
